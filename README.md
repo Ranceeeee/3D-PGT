@@ -23,3 +23,10 @@ python pretrain_main.py --cfg configs/GPS/pre-train_Drugs.yaml wandb.use False
 # Running 3D PGT for pre-training on PCQM4Mv2 dataset
 python pretrain_main.py --cfg configs/GPS/pcqm4m-GPS.yaml wandb.use False
 ```
+## For Downstream tasks
+
+You can use the following code to ```finetune``` downstream tasks, but pay attention to setting the addresses of downstream task datasets and pre-trained model files in the ```config file```.
+```
+Running 3D PGT for finetuning on GEOM-Drugs dataset
+python main.py --cfg configs/GPS/finetune_Drugs.yaml
+```
