@@ -1,4 +1,4 @@
-# 3D-PGT
+# Adaptive 3D Pre-training for Molecular Property Prediction
 
 ![3D PGT-viz](./Method_Framework.png)
 
