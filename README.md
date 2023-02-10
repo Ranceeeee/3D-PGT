@@ -1,5 +1,12 @@
 # 3D-PGT
-This repository provides the source code for 'Adaptive 3D Pre-Training for Molecular Property Prediction'. 
+
+![3D PGT-viz](./Method_Framework.png)
+
+This repository provides the source code for 'Adaptive 3D Pre-Training for Molecular Property Prediction'. 3D PGT aims to use geometric information to design pre-training tasks to enhance the property prediction tasks of downstream 2D molecular graphs.
+The whole process consists of two stages：
+- In the 3D pre-training stage, 3D PGT performs several generative pre-training tasks on the dataset containing 3D information
+- In the finetune stage, 3D PGT fine-tunes the pre-trained model on molecular datasets containing only 2D topological structures and performs property prediction tasks
+
 ## Requirements
 ```
 python>=3.7, pytorch=1.10.0, pytorch_geometric==2.0.4, numpy>=1.21.2, pandas>=1.3.4
