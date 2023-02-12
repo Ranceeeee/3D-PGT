@@ -171,7 +171,7 @@ class Molecule3DDataset(InMemoryDataset):
         whole_SMILES_set = set()
         for task in downstream_task_list:
             print("====== {} ======".format(task))
-            file_path = "/data/wangxu/datasets/molecule_datasets/{}/processed/smiles.csv".format(task)
+            file_path = "/data/username/datasets/molecule_datasets/{}/processed/smiles.csv".format(task)
             SMILES_list = load_SMILES_list(file_path)
             temp_SMILES_set = set(SMILES_list)
             whole_SMILES_set = whole_SMILES_set | temp_SMILES_set

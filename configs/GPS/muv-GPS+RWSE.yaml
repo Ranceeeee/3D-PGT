@@ -6,7 +6,7 @@ tensorboard_each_run: True
 dataset:
   format: Chem_dataset
   name: muv
-  dir: '/data/wangxu/datasets/molecule_datasets/muv'
+  dir: '/data/username/datasets/molecule_datasets/muv'
   task: graph
   task_type: classification_multilabel
   transductive: False

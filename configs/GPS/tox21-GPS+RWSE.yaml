@@ -6,7 +6,7 @@ tensorboard_each_run: True
 dataset:
   format: Chem_dataset
   name: tox21
-  dir: '/data/wangxu/auto_pretrain/dataset/tox21'
+  dir: '/data/username/auto_pretrain/dataset/tox21'
   task: graph
   task_type: classification_multilabel
   transductive: False

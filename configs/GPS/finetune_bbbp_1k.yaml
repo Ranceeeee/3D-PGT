@@ -5,12 +5,12 @@ wandb:
   use: False
 tensorboard_each_run: True
 pretrained:
-  dir: '/home/wangxu/lsc/auto_pretrain/GraphGPS-main/results/pre-train_Drugs'
+  dir: '/home/username/lsc/auto_pretrain/GraphGPS-main/results/pre-train_Drugs'
   reset_prediction_head: False
 dataset:
   format: Chem_dataset
   name: bbbp
-  dir: '/data/wangxu/datasets/molecule_datasets/bbbp'
+  dir: '/data/username/datasets/molecule_datasets/bbbp'
   task: graph
   task_type: classification
   transductive: False

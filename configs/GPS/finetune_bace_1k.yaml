@@ -5,12 +5,12 @@ wandb:
   use: False
 tensorboard_each_run: True
 pretrained:
-  dir: '/home/wangxu/lsc/auto_pretrain/GraphGPS-main/results/pre-train_Drugs'
+  dir: '/home/username/lsc/auto_pretrain/GraphGPS-main/results/pre-train_Drugs'
   reset_prediction_head: False
 dataset:
   format: Chem_dataset
   name: bace
-  dir: '/data/wangxu/datasets/molecule_datasets/bace'
+  dir: '/data/username/datasets/molecule_datasets/bace'
   task: graph
   task_type: classification
   transductive: False

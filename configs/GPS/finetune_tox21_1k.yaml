@@ -5,12 +5,12 @@ wandb:
   use: False
 tensorboard_each_run: True
 pretrained:
-  dir: '/home/wangxu/lsc/auto_pretrain/GraphGPS-main/results/pre-train_Drugs'
+  dir: '/home/username/lsc/auto_pretrain/GraphGPS-main/results/pre-train_Drugs'
   reset_prediction_head: True
 dataset:
   format: Chem_dataset
   name: tox21
-  dir: '/data/wangxu/datasets/molecule_datasets/tox21'
+  dir: '/data/username/datasets/molecule_datasets/tox21'
   task: graph
   task_type: classification_multilabel
   transductive: False

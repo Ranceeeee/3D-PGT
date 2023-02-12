@@ -7,7 +7,7 @@ tensorboard_each_run: True
 dataset:
   format: Chem_dataset
   name: esol
-  dir: '/data/wangxu/auto_pretrain/molecule_datasets_regression/esol'
+  dir: '/data/username/auto_pretrain/molecule_datasets_regression/esol'
   task: graph
   task_type: regression
   transductive: False

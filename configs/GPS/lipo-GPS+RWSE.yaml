@@ -7,7 +7,7 @@ tensorboard_each_run: True
 dataset:
   format: Chem_dataset
   name: lipophilicity
-  dir: '/data/wangxu/auto_pretrain/dataset/lipophilicity'
+  dir: '/data/username/auto_pretrain/dataset/lipophilicity'
   task: graph
   task_type: regression
   transductive: False

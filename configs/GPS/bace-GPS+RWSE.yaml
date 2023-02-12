@@ -7,7 +7,7 @@ tensorboard_each_run: True
 dataset:
   format: Chem_dataset
   name: bace
-  dir: '/data/wangxu/datasets/molecule_datasets/bace'
+  dir: '/data/username/datasets/molecule_datasets/bace'
   task: graph
   task_type: classification
   transductive: False

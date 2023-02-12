@@ -7,7 +7,7 @@ tensorboard_each_run: True
 dataset:
   format: Chem_dataset
   name: geom_pre-train
-  dir: '/data/wangxu/datasets/GEOM_3D_nmol300_nconf1_nupper1000'
+  dir: '/data/username/datasets/GEOM_3D_nmol300_nconf1_nupper1000'
   task: graph
   task_type: regression
   transductive: False
